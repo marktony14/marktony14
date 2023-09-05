@@ -1,0 +1,37 @@
+/* styles.css */
+body {
+  background-image: url('img/fondo 2.jpg'); /* Ruta a tu imagen de fondo */
+  background-size: 1366px 655px;
+  background-repeat: no-repeat;
+}
+
+.dark-footer {
+  color: #fff; /* Texto claro */
+  padding: 0px 0; /* Espaciado interno */
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-logo {
+  max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+}
+
+.aforo{
+  pad
+}
+
+.main{
+  width: 400px;
+  
+  position: absolute ;
+  top: 43%;
+  left: 37%;
+}
+
+.redes {
+  padding: 7px;
+}
+
+
+ 
