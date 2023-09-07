@@ -32,3 +32,10 @@ body {
 .redes {
   padding: 7px;
 }
+
+.container{
+  position: relative;
+  display: inline-block;
+  margin: 80px;
+  
+}
