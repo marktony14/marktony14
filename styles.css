@@ -37,14 +37,6 @@ body {
   position: relative;
 }
 
-
-.ContnedorEntrenador{
-  margin: 30px;
-}
-
-.ContnedorEntrenador td a, p{
-  margin: 100px;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+.ex1{
+  margin: 10px 3px 30px 30px;
 }
