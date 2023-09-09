@@ -47,4 +47,8 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
+
+}
+.ContnedorEntrenador td a img{
+  border-radius: 2rem;
 }
