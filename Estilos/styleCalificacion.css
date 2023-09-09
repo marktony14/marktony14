@@ -12,10 +12,19 @@ body {
     /* Texto claro */
     padding: 0px 0;
     /* Espaciado interno */
+    margin-top: auto;
+    /* Mueve el footer al final de la página */
+    width: 100%;
+}
+
+/*
+.dark-footer {
+    color: #fff;
+    padding: 0px 0;
     position:fixed;
     width: 100%;
     bottom: 0;
-}
+}*/
 
 .footer-logo {
     max-width: 100px;
