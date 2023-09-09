@@ -12,9 +12,16 @@ body {
   color: #fff;
 }
 
+.row-1{
+  padding: 5px;
+}
+
 .Contador {
   text-align: center; /* Centra horizontalmente en la página */
-  margin-top: 50px; /* Ocupa todo el alto de la ventana */
+  margin-top: 50px; 
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 10vw;
 }
 
 .footer-logo {
@@ -32,8 +39,8 @@ body {
 
 .col {
   background-color: white;
-  margin: 5px;
-  height: 90px;
+  margin: 10px;
+  height: 80px;
 }
 
 .af {
