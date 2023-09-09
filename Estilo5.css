@@ -51,7 +51,7 @@ main {
     display: block;
     position: relative;
     width: 90%;
-    background-image: url('/img/perfilPanel.jpg');
+    background-image: url('img/perfilPanel.jpg');
     height: 17rem;
     border-radius: 0 0 20px 20px;
     /*
