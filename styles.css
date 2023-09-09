@@ -1,88 +1,82 @@
 /* styles.css */
 body {
-  background-image: url('img/fondo 2.jpg'); /* Ruta a tu imagen de fondo */
-  background-size: 1490px 655px;
+  background-image: url('img/fondo 2.jpg');
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .dark-footer {
-  color: #fff; /* Texto claro */
-  padding: 0px 0; /* Espaciado interno */
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  color: #fff;
+}
+
+.Contador {
+  text-align: center; /* Centra horizontalmente en la página */
+  margin-top: 50px; /* Ocupa todo el alto de la ventana */
 }
 
 .footer-logo {
-  max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+  max-width: 100px;
+  /* Ajusta el tamaño máximo de la imagen */
 }
 
-.aforo{
-  pad
+.aforo {
+  pad;
 }
 
-.main{
-  width: 400px;
-  
-  position: absolute ;
-  top: 35%;
-  left: 34%;
-}
-
-.row-1{
-  background-color: ;
-  padding: 20px;
-  margin: 0px;
-  height: 170px;
-
+.main {
+  flex: 1;
 }
 
 .col {
   background-color: white;
-  margin:5px ;
+  margin: 5px;
   height: 90px;
 }
 
-.af{
-color: #F0CE12;
+.af {
+  color: #F0CE12;
+
 }
-.af1{
-color:white;
+
+.af1 {
+  color: white;
+
 }
 
 .redes {
   padding: 7px;
 }
-.mainN{
+
+.mainN {
   width: 500px;
-  
-  position: absolute ;
+
+  position: absolute;
   top: 30%;
   left: 32%;
 }
 
 
-.container{
+.container {
   position: relative;
 }
 
-<<<<<<< HEAD
 
-.ContnedorEntrenador{
+.ContnedorEntrenador {
   margin: 30px;
 }
 
-.ContnedorEntrenador td a, p{
+.ContnedorEntrenador td a,
+p {
   margin: 100px;
   align-items: center;
   text-align: center;
   padding: 20px;
 
 }
-.ContnedorEntrenador td a img{
+
+.ContnedorEntrenador td a img {
   border-radius: 2rem;
-=======
-.ex1{
-  margin: 10px 3px 30px 30px;
->>>>>>> 24ba74e8249ea56f21d7e11dba72e9a08478251c
 }
