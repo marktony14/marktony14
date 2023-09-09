@@ -9,11 +9,8 @@ body {
 
 .dark-footer {
     color: #fff;
-    /* Texto claro */
     padding: 0px 0;
-    /* Espaciado interno */
     margin-top: auto;
-    /* Mueve el footer al final de la página */
     width: 100%;
 }
 
