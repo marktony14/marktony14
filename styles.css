@@ -25,13 +25,42 @@ body {
   width: 400px;
   
   position: absolute ;
-  top: 43%;
-  left: 37%;
+  top: 35%;
+  left: 34%;
+}
+
+.row-1{
+  background-color: ;
+  padding: 20px;
+  margin: 0px;
+  height: 170px;
+
+}
+
+.col {
+  background-color: white;
+  margin:5px ;
+  height: 90px;
+}
+
+.af{
+color: #F0CE12;
+}
+.af1{
+color:white;
 }
 
 .redes {
   padding: 7px;
 }
+.mainN{
+  width: 500px;
+  
+  position: absolute ;
+  top: 30%;
+  left: 32%;
+}
+
 
 .container{
   position: relative;
