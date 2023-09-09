@@ -10,9 +10,9 @@ body {
     /* Texto claro */
     padding: 0px 0;
     /* Espaciado interno */
-    position: fixed;
+    margin-top: auto;
+    /* Mueve el footer al final de la página */
     width: 100%;
-    bottom: 0;
 }
 
 .footer-logo {
