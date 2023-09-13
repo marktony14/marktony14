@@ -21,7 +21,7 @@ body {
 
 .Contador {
   text-align: center; /* Centra horizontalmente en la página */
-  margin-top: 10%; 
+  margin-top: 50px; 
   margin-left: 20vw;
   margin-right: 20vw;
   margin-bottom: 10vw;
@@ -56,6 +56,33 @@ body {
   padding: 7px;
 }
 
+.mainN {
+  width: 500px;
+
+  position: absolute;
+  top: 30%;
+  left: 32%;
+}
+
+
 .container {
   position: relative;
+}
+
+
+.ContnedorEntrenador {
+  margin: 30px;
+}
+
+.ContnedorEntrenador td a,
+p {
+  margin: 100px;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.ContnedorEntrenador td a img {
+  border-radius: 2rem;
 }
