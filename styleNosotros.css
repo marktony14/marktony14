@@ -25,31 +25,51 @@ body {
   display: flex;
   position: relative;
   margin: 5%;
-  padding: 2%;
+  padding: 3%;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #171618;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .box{
   color: #fff;
   text-align: center;
 }
-
+/*PANTALLAS DE CELULAR*/
 @media screen and (max-width:767px) {
   .box h7{
     font-size: 13px;
   }
+  .box p{
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .seccion1{
+    padding: 7%;
+  }
 }
+/*PANTALLAS GRANDES*/
 @media screen and (min-width: 1800px) {
   .box h7{
     font-size: 25px;
   }
+  .box p{
+    font-size: 35px;
+    margin-bottom: 60px;
+  }
 }
+/*PANTALLAS MEDIANAS*/
 @media screen and (min-width:768px) and (max-width:1799px) {
   .box h7{
     font-size: 20px;
+  }
+  .box p{
+    font-size: 26px;
+    margin-bottom: 60px;
+  }
+  .seccion1{
+    padding: 4%;
   }
 }
 
