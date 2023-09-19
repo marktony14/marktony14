@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  background-image: url('img/fondo 2.jpg');
+
   background-size: 100% 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -48,6 +48,9 @@ body {
   .seccion1{
     padding: 7%;
   }
+  body {
+    background-image: url('img/fondo.jpg');
+  }
 }
 /*PANTALLAS GRANDES*/
 @media screen and (min-width: 1800px) {
@@ -57,6 +60,9 @@ body {
   .box p{
     font-size: 35px;
     margin-bottom: 60px;
+  }
+  body {
+    background-image: url('img/fondo 2.jpg');
   }
 }
 /*PANTALLAS MEDIANAS*/
@@ -70,6 +76,9 @@ body {
   }
   .seccion1{
     padding: 4%;
+  }
+  body {
+    background-image: url('img/fondo 2.jpg');
   }
 }
 

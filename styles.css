@@ -15,13 +15,18 @@ body {
   width: 100%;
 }
 
-.row-1{
-  padding: 5px;
+.row-1 {
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-radius: 8px;
 }
 
 .Contador {
-  text-align: center; /* Centra horizontalmente en la página */
-  margin-top: 10%; 
+  text-align: center;
+  /* Centra horizontalmente en la página */
+  margin-top: 9%;
   margin-left: 20vw;
   margin-right: 20vw;
   margin-bottom: 10vw;
@@ -40,6 +45,7 @@ body {
   background-color: white;
   margin: 10px;
   height: 80px;
+  border-radius: 10px;
 }
 
 .af {
@@ -58,4 +64,48 @@ body {
 
 .container {
   position: relative;
+}
+
+/*PANTALLAS DE CELULAR*/
+@media screen and (max-width:767px) {
+
+  body {
+    background-image: url('img/fondo.jpg');
+  }
+  main{
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+  .Contador{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+  }
+
+}
+
+/*PANTALLAS GRANDES*/
+@media screen and (min-width: 1800px) {
+
+  body {
+    background-image: url('img/fondo 2.jpg');
+  }
+  .Contador{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 20vw;
+  }
+}
+
+/*PANTALLAS MEDIANAS*/
+@media screen and (min-width:768px) and (max-width:1799px) {
+
+  body {
+    background-image: url('img/fondo 2.jpg');
+  }
+  .Contador{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 20vw;
+  }
 }

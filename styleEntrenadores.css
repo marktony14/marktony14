@@ -1,0 +1,38 @@
+/* styles.css */
+body {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/*SECCION DE CUADRO DE ENTRENADORES*/
+
+.seccionTrainer{
+  margin: 10%;
+  
+}
+
+
+/*FOOTER*/
+
+.dark-footer {
+  color: #fff;
+  padding: 0px 0;
+  margin-top: auto;
+  width: 100%;
+}
+
+.footer-logo {
+  max-width: 100px;
+  /* Ajusta el tamaño máximo de la imagen */
+}
+
+.redes {
+  padding: 7px;
+}
+
+.container {
+  position: relative;
+}
