@@ -10,7 +10,6 @@ body {
 /*SECCION DE CUADRO DE ENTRENADORES*/
 
 .seccionTrainer{
-  margin: 10%;
   
 }
 
@@ -64,6 +63,21 @@ body {
     margin-top: 50%;
     margin-bottom: 50%;
   }
+  .seccionTrainer{
+    margin-top: 15%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
+  .card{
+    margin: 4%;
+  }
+  #trainer1{
+    background-image: url('img/trainer3Celular.jpg');
+  }
+  #trainer2{
+    background-image: url('img/fotoperfilCelular.jpg');
+  }
 
 }
 
@@ -73,6 +87,12 @@ body {
   body {
     background-image: url('img/fondo 2.jpg');
   }
+  .seccionTrainer{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
 }
 
 /*PANTALLAS MEDIANAS*/
@@ -80,5 +100,12 @@ body {
 
   body {
     background-image: url('img/fondo 2.jpg');
+  }
+  .seccionTrainer{
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    
   }
 }
