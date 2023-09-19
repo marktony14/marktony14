@@ -14,6 +14,21 @@ body {
   
 }
 
+.card{
+  background-color: gray;
+  border-color: yellow;
+  margin: 15%;
+}
+
+.card-body{
+  background: gray;
+
+}
+
+.card-text, .card-title{
+  color: #fff;
+  text-align: center;
+}
 
 /*FOOTER*/
 
@@ -35,4 +50,35 @@ body {
 
 .container {
   position: relative;
+}
+
+
+
+/*PANTALLAS DE CELULAR*/
+@media screen and (max-width:767px) {
+
+  body {
+    background-image: url('img/fondo.jpg');
+  }
+  main{
+    margin-top: 50%;
+    margin-bottom: 50%;
+  }
+
+}
+
+/*PANTALLAS GRANDES*/
+@media screen and (min-width: 1800px) {
+
+  body {
+    background-image: url('img/fondo 2.jpg');
+  }
+}
+
+/*PANTALLAS MEDIANAS*/
+@media screen and (min-width:768px) and (max-width:1799px) {
+
+  body {
+    background-image: url('img/fondo 2.jpg');
+  }
 }
