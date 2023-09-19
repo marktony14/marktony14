@@ -7,7 +7,133 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
+/*ENCABEZADO*/
 
+
+/*MAIN DE LA PÁGINA*/
+
+.main {
+  flex: 1;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+/*Seccion 1*/
+
+.seccion1{
+  align-content: center;
+  display: flex;
+  position: relative;
+  margin: 5%;
+  padding: 2%;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #171618;
+  opacity: 0.9;
+}
+
+.box{
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width:767px) {
+  .box h7{
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .box h7{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1799px) {
+  .box h7{
+    font-size: 20px;
+  }
+}
+
+.border-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #171618, #fcc23f);
+  animation: animate-border-top 2s linear infinite;
+}
+@keyframes animate-border-top {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.border-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to bottom, #171618, #fcc23f);
+  animation: animate-border-right 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate-border-right {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.border-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to left, #171618, #fcc23f);
+  animation: animate-border-bottom 2s linear infinite;
+}
+@keyframes animate-border-bottom {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.border-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background: linear-gradient(to top, #171618, #fcc23f);
+  animation: animate-border-left 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate-border-left {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.col {
+  background-color: white;
+  margin: 10px;
+  height: 80px;
+}
+
+
+/*FOOTER */
 .dark-footer {
   color: #fff;
   padding: 0px 0;
@@ -15,66 +141,11 @@ body {
   width: 100%;
 }
 
-.row-1{
-  padding: 5px;
-}
-
-.Contador {
-  text-align: center; /* Centra horizontalmente en la página */
-  margin-top: 50px; 
-  margin-left: 20vw;
-  margin-right: 20vw;
-  margin-bottom: 10vw;
+.redes {
+  padding: 7px;
 }
 
 .footer-logo {
   max-width: 100px;
   /* Ajusta el tamaño máximo de la imagen */
-}
-
-.main {
-  flex: 1;
-}
-
-.col {
-  background-color: white;
-  margin: 10px;
-  height: 80px;
-}
-
-.af {
-  color: #F0CE12;
-
-}
-
-.af1 {
-  color: white;
-
-}
-
-.redes {
-  padding: 7px;
-}
-
-.mainN {
-  width: 500px;
-
-  position: absolute;
-  top: 30%;
-  left: 32%;
-}
-
-
-.container {
-  position: relative;
-}
-
-
-.ContnedorEntrenador {
-  margin: 30px;
-}
-
-
-.ContnedorEntrenador td a img {
-  border-radius: 2rem;
 }
