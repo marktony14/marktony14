@@ -8,25 +8,33 @@ body {
 }
 
 /*SECCION DE CUADRO DE ENTRENADORES*/
-
-.seccionTrainer{
-  
+.titulo{
+  margin-left:30%;
+  margin-right: 30%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5rem;
+  padding: 2%;
 }
 
 .card{
-  background-color: gray;
-  border-color: yellow;
   margin: 15%;
 }
 
 .card-body{
-  background: gray;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
 
 }
 
 .card-text, .card-title{
   color: #fff;
   text-align: center;
+}
+
+.card-img-top{
+  opacity: 1;
+  border-radius: 10rem;
 }
 
 /*FOOTER*/
@@ -78,6 +86,17 @@ body {
   #trainer2{
     background-image: url('img/fotoperfilCelular.jpg');
   }
+  .titulo{
+    margin-left:10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2%;
+  }
+  
+  .card-body{
+    background: rgba(0, 0, 0, 0.7);  
+  }
 
 }
 
@@ -89,8 +108,8 @@ body {
   }
   .seccionTrainer{
     margin-top: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 0%;
   }
 }
@@ -103,9 +122,15 @@ body {
   }
   .seccionTrainer{
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 10%;
-    
+  }
+  .titulo{
+    margin-left:10%;
+    margin-right: 10%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2%;
   }
 }
