@@ -51,6 +51,10 @@ body {
   body {
     background-image: url('img/fondo.jpg');
   }
+  .main{
+    margin-top: 28%;
+    margin-bottom: 28%;
+  }
 }
 /*PANTALLAS GRANDES*/
 @media screen and (min-width: 1800px) {
