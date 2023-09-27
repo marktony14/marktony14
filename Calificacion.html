@@ -53,17 +53,18 @@
 
 	<main>
 
-		<div class="container">
-			<img class="entrenador" src="img/entrenador.png" alt="Mi imagen">
-			<div class="text-section">
-				<h1><i>"El dolor es temporal, el orgullo es para siempre"</i></h1>
-				<br>
-				<h3>Cada esfuerzo vale la pena y los resultados se verán con el tiempo así que no se rindan, sigan
-					entrenando duro y cuidando su alimentación. Y recuerden, su opinión es muy importante, no duden en
-					votar
-					como fue la experiencia con su entrenador.</h3>
-				<br>
-			</div>
+		<div class="portada">
+				<div class="sectionImg">
+					<img class="entrenador" src="img/entrenador.png" alt="Mi imagen">
+				</div>
+				<div class="text-section">
+					<h1><i>"El dolor es temporal, el orgullo es para siempre"</i></h1>
+					<br>
+					<h3>Cada esfuerzo vale la pena y los resultados se verán con el tiempo así que no se rindan, sigan
+						entrenando duro y cuidando su alimentación. Y recuerden, su opinión es muy importante, no duden en
+						votar
+						como fue la experiencia con su entrenador.</h3>
+				</div>	
 		</div>
 
 
@@ -73,7 +74,7 @@
 			<h2>Elige al entrenador al que te gustaría calificar:</h2>
 			<div class="row">
 				<div class="container text-center mt-4">
-					<select class="form-select form-select-lg">
+					<select class="form-select form-select-lg text-center">
 						<option selected>Selecciona tu Entrenador:</option>
 						<option value="entrenador1">Kaled Fuentes Martínez</option>
 						<option value="entrenador2">Marco Antonio Humareda Almirante</option>
@@ -102,7 +103,7 @@
 		<script>
 			const stars = document.querySelectorAll('.fa-star');
 			const rating = document.getElementById('rating');
-		
+
 			stars.forEach((star, index) => {
 				star.addEventListener('click', () => {
 					// Remover la clase 'checked' de todas las estrellas
