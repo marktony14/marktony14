@@ -1,23 +1,18 @@
 /* styles.css */
 body {
-    /* Ruta a tu imagen de fondo */
     background-size: 1366px 655px;
     background-repeat: no-repeat;
 }
 
 .dark-footer {
     color: #fff;
-    /* Texto claro */
     padding: 0px 0;
-    /* Espaciado interno */
     margin-top: auto;
-    /* Mueve el footer al final de la página */
     width: 100%;
 }
 
 .footer-logo {
     max-width: 100px;
-    /* Ajusta el tamaño máximo de la imagen */
 }
 
 /*La parte de principal de la pantalla*/
