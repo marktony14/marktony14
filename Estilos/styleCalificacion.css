@@ -149,7 +149,9 @@ main {
 
 /*PANTALLAS GRANDES*/
 @media screen and (min-width: 1800px) {
-    
+    .star-rating{
+        margin-top: 60px;
+    }
     @keyframes float {
         0% {
             transform: translateY(15px);
@@ -171,6 +173,10 @@ main {
     .portada{
         margin: 80px;
         padding: 30px;
+    }
+
+    .star-rating{
+        margin-top: 50px;
     }
 
     @keyframes float {
