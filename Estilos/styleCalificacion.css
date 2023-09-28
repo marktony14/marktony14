@@ -46,8 +46,11 @@ main {
 }
 
 /*Calificacion de los entrenadores*/
-.containerCalificacion {
-    margin: 30px;
+.containerCalificacion{
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
     align-content: center;
     padding: 30px;
     text-align: center;
@@ -106,10 +109,26 @@ main {
     }
 
     .text-section h1{
-        font-size: 20px;
+        font-size: 21px;
     }
     .text-section h3{
         font-size: 15px;
+    }
+    .containSelection h2 {
+        font-size: 18px;
+    }
+    .containerCalificacion{
+        margin-top: 30px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    .containerCalificacion h2 {
+        font-size: 18px;
+    }
+    .star-rating{
+        margin-top: 30px;
     }
 
     @keyframes float {
