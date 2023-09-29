@@ -2,6 +2,7 @@
 function cambiarFondoSegunHora() {
     const horaActual = new Date().getHours();
     const login = document.querySelector('.login');
+    const nube = document.querySelector('.nubes');
     const fondo = document.getElementById('background');
     const horaNocheInicio = 20; // Cambia esto a la hora en que consideras que comienza la noche
     const horaNocheFin = 6;    // Cambia esto a la hora en que consideras que termina la noche
@@ -14,6 +15,7 @@ function cambiarFondoSegunHora() {
         fondo.style.backgroundImage = "url('../img/fondomontaña2.jpeg')";
         login.style.borderColor = "rgba(253, 197, 171, 0.4)";
         login.style.backgroundColor = "rgba(71, 87, 131, 0.5)";
+        nube.style.opacity = "0.5";
     }
 }
 
