@@ -4,7 +4,7 @@ function cambiarFondoSegunHora() {
     const login = document.querySelector('.login');
     const nube = document.querySelector('.nubes');
     const fondo = document.getElementById('background');
-    const horaNocheInicio = 19.40; // Cambia esto a la hora en que consideras que comienza la noche
+    const horaNocheInicio = 19; // Cambia esto a la hora en que consideras que comienza la noche
     const horaNocheFin = 6;    // Cambia esto a la hora en que consideras que termina la noche
 
     if (horaActual >= horaNocheInicio || horaActual < horaNocheFin) {
