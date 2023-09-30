@@ -44,6 +44,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 3rem;
     backdrop-filter: blur(10px);
+    margin: 30px;
 }
 
 .texto h1{
@@ -55,10 +56,12 @@ body {
     text-transform: uppercase;
     font-size: 40px;
     margin: 50px;
-
+    text-align: center;
 }
 
 @media screen and (max-width:767px) {
-
-    
+    .fondo{
+        background-image: none;
+        background-color: rgb(225, 228, 228)
+    }
 }
