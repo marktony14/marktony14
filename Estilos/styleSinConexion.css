@@ -10,7 +10,7 @@ body {
 }
 
 .fondo {
-    background-image: url('/img/ab.gif');
+    background-image: url('../img/ab.gif');
     position: absolute;
     top: 0;
     left: 0;
