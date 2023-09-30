@@ -151,7 +151,7 @@ body {
 /*cuadro de inicio de sesión*/
 
 .cuadro {
-    position: relative;
+
     backdrop-filter: blur(10px);
     padding: 20px;
     /* Añade espacio para el contenido del inicio de sesión */
