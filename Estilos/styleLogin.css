@@ -270,13 +270,13 @@ body {
 @media screen and (max-width:767px) {
     
     .contenido{
-        position:relative;
+        position:absolute;
         top: 0%;
         left: 0%;
         transform: translate(0%,0%);
         width: 100%;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
         padding-top: 60px;
         padding-bottom: 60px;
         right: 0%;
@@ -293,7 +293,7 @@ body {
     .banner{
         height: 100%;
         width: 100%;
-        padding-left: 10px;
+        padding-left: 8px;
 
     }
     .logo {
