@@ -31,7 +31,7 @@ function cambiarFondoYBordeSegunHora() {
             login.style.borderColor = "rgba(0, 0, 0, 0.2)";
             login.style.backgroundColor = "rgba(0, 0, 0, 0.4)";
         } else {
-            fondo.style.backgroundImage = "url('img/fondomontana2.jpeg)";
+            fondo.style.backgroundImage = "url('img/fondomontana2.jpeg')";
             login.style.borderColor = "rgba(253, 197, 171, 0.4)";
             login.style.backgroundColor = "rgba(71, 87, 131, 0.5)";
             nube.style.opacity = "0.5";
