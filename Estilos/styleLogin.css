@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    z-index: -1;
 }
 
 .nubes {
@@ -45,6 +45,12 @@ body {
     }
 }
 
+.contenido{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
 
 /* Todo el Login en general */
@@ -263,8 +269,20 @@ body {
 
 /*PANTALLAS DE CELULAR*/
 @media screen and (max-width:767px) {
+    
+    .contenido{
+        position:relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%,0%);
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
     .login { 
-        margin: 30px;
         width: 100%;
         height: 100%;
         grid-template-columns: 1fr;
@@ -274,14 +292,14 @@ body {
     .banner{
         height: 100%;
         width: 100%;
+
     }
     .logo {
         height: auto;
-        margin-top: 20px;
-        margin-bottom: 10px;
+        margin:60px;
     }
     .imglogo{
-        width: 100px;
+        width: 130px;
     }
     .bienvenida {
         margin-left: 10px;
@@ -289,21 +307,21 @@ body {
         text-align: center;
     }
     .bienvenida h1 {
-        font-size: 28px;
+        font-size: 37px;
         letter-spacing: 8px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
     
     .bienvenida h2 {
-        font-size: 20px;
-        margin-bottom: 40px;
+        font-size: 22px;
+        margin-bottom: 60px;
     }
     
     .bienvenida h3 {
-        font-size: 10px;
-        margin-bottom: 40px;
+        font-size: 12px;
+        margin-bottom: 60px;
     }
     
     /*cuadro de inicio de sesión*/
