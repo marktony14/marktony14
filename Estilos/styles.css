@@ -41,6 +41,20 @@ body {
   flex: 1;
 }
 
+#login{
+  display: flex ;
+  justify-content: flex-end ;
+  border-radius: 5rem ;
+}
+
+#login img{
+  height: 30px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
 .col {
   background-color: white;
   margin: 10px;
@@ -70,7 +84,7 @@ body {
 @media screen and (max-width:767px) {
 
   body {
-    background-image: url('img/fondo.jpg');
+    background-image: url('../img/fondo.jpg');
   }
   main{
     margin-top: 50%;
@@ -88,7 +102,7 @@ body {
 @media screen and (min-width: 1800px) {
 
   body {
-    background-image: url('img/fondo 2.jpg');
+    background-image: url('../ img/fondo 2.jpg');
   }
   .Contador{
     margin-left: 30vw;
@@ -101,7 +115,7 @@ body {
 @media screen and (min-width:768px) and (max-width:1799px) {
 
   body {
-    background-image: url('img/fondo 2.jpg');
+    background-image: url('../img/fondo 2.jpg');
   }
   .Contador{
     margin-left: 30vw;

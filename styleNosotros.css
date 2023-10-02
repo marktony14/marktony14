@@ -9,6 +9,20 @@ body {
 }
 /*ENCABEZADO*/
 
+#login{
+  display: flex ;
+  justify-content: flex-end ;
+  border-radius: 5rem ;
+}
+
+#login img{
+  height: 30px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
 
 /*MAIN DE LA PÁGINA*/
 

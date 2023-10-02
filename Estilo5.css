@@ -21,6 +21,20 @@ main {
     margin-bottom: 150px;
 }
 
+#login{
+    display: flex ;
+    justify-content: flex-end ;
+    border-radius: 5rem ;
+  }
+  
+  #login img{
+    height: 30px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
 .redes {
     padding: 7px;
 }
