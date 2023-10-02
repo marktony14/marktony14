@@ -1,0 +1,4 @@
+li#login a:hover .loglog circle,
+li#login a:hover .loglog path {
+    stroke: white; /* Cambia el color del trazo a blanco en el hover */
+}

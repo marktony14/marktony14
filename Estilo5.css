@@ -21,19 +21,26 @@ main {
     margin-bottom: 150px;
 }
 
-#login{
-    display: flex ;
-    justify-content: flex-end ;
-    border-radius: 5rem ;
-  }
-  
-  #login img{
+#login {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 5rem;
+}
+
+#login svg {
     height: 30px;
     margin-top: 0%;
     margin-bottom: 0%;
     margin-left: 0px;
     margin-right: 10px;
-  }
+    width: auto;
+}
+
+li#login a:hover .loglog circle,
+li#login a:hover .loglog path {
+    stroke: white;
+    /* Cambia el color del trazo a blanco en el hover */
+}
 
 .redes {
     padding: 7px;
