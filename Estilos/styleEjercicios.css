@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.dark-footer {
+    color: #fff;
+    padding: 0px 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+#login {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 5rem;
+}
+
+#login svg {
+    height: 30px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0px;
+    margin-right: 10px;
+    width: auto;
+}
+
+li#login a:hover .loglog circle,
+li#login a:hover .loglog path {
+    stroke: white;
+    /* Cambia el color del trazo a blanco en el hover */
+}
+
+.footer-logo {
+    max-width: 100px;
+    /* Ajusta el tamaño máximo de la imagen */
+}
+
+/*La parte de principal de la pantalla*/
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    justify-content: center;
+    /* Centra el contenido horizontalmente y verticalmente */
+    width: 100%;
+    height: auto;
+}
+
+.redes {
+    padding: 7px;
+}
+
+
+/*PANTALLAS DE CELULAR*/
+@media screen and (max-width:767px) {
+    
+}
+
+/*PANTALLAS GRANDES*/
+@media screen and (min-width: 1800px) {
+
+}
+
+/*PANTALLAS MEDIANAS*/
+@media screen and (min-width:768px) and (max-width:1799px) {
+
+}

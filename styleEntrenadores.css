@@ -8,13 +8,18 @@ body {
 }
 
 /*SECCION DE CUADRO DE ENTRENADORES*/
+.seccionTrainer{
+  padding-top: 5%;
+}
+
 .titulo{
-  margin-left:30%;
-  margin-right: 30%;
+  margin-left:10%;
+  margin-right: 10%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5rem;
   padding: 2%;
+  backdrop-filter: blur(5px);
 }
 
 #login{
@@ -44,7 +49,7 @@ li#login a:hover .loglog path {
 .card-body{
   background: rgba(0, 0, 0, 0.5);
   border-radius: 2rem;
-
+  backdrop-filter: blur(5px);
 }
 
 .card-text, .card-title{
@@ -92,6 +97,7 @@ li#login a:hover .loglog path {
     margin-bottom: 50%;
   }
   .seccionTrainer{
+    padding-top: 0%;
     margin-top: 15%;
     margin-left: 0%;
     margin-right: 0%;
