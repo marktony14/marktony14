@@ -44,6 +44,8 @@ li#login a:hover .loglog path {
 
 .card{
   margin: 15%;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-body{
@@ -87,10 +89,10 @@ li#login a:hover .loglog path {
 
 
 /*PANTALLAS DE CELULAR*/
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
 
   body {
-    background-image: url('img/fondo.jpg');
+    background-image: url('../img/fondo.jpg');
   }
   main{
     margin-top: 50%;
@@ -107,10 +109,10 @@ li#login a:hover .loglog path {
     margin: 4%;
   }
   #trainer1{
-    background-image: url('img/trainer3Celular.jpg');
+    max-width: 350px;
   }
   #trainer2{
-    background-image: url('img/fotoperfilCelular.jpg');
+    max-width: 350px;
   }
   .titulo{
     margin-left:10%;
@@ -122,6 +124,7 @@ li#login a:hover .loglog path {
   
   .card-body{
     background: rgba(0, 0, 0, 0.7);  
+    max-width: 400px;
   }
 
 }
@@ -130,7 +133,7 @@ li#login a:hover .loglog path {
 @media screen and (min-width: 1800px) {
 
   body {
-    background-image: url('img/fondo 2.jpg');
+    background-image: url('../img/fondo 2.jpg');
   }
   .seccionTrainer{
     margin-top: 0%;
@@ -144,7 +147,7 @@ li#login a:hover .loglog path {
 @media screen and (min-width:768px) and (max-width:1799px) {
 
   body {
-    background-image: url('img/fondo 2.jpg');
+    background-image: url('../img/fondo 2.jpg');
   }
   .seccionTrainer{
     margin-top: 5%;
