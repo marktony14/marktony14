@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+
 }
 
 .dark-footer {
@@ -51,12 +52,16 @@ main {
     /* Centra el contenido horizontalmente y verticalmente */
     width: 100%;
     height: auto;
+    background-color: #484949;
 }
 
 .redes {
     padding: 7px;
 }
 
+#carouselExampleCaptions{
+    padding: 30px;
+}
 
 /*PANTALLAS DE CELULAR*/
 @media screen and (max-width:767px) {

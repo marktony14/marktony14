@@ -112,6 +112,9 @@ main {
     align-items: center;
     animation: float 6s ease infinite;
 }
+#disqus_thread{
+    margin: 3%;
+}
 
 
 /*PANTALLAS DE CELULAR*/
