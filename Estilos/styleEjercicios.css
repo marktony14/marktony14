@@ -52,7 +52,8 @@ main {
     /* Centra el contenido horizontalmente y verticalmente */
     width: 100%;
     height: auto;
-    background-color: #484949;
+    background-color: #1b1f22;
+    padding: 2%;
 }
 
 .redes {
