@@ -356,6 +356,9 @@ body {
 .formulario{
     width: 100%;
 }
+.nubes{
+    opacity: 0.4;
+}
 }
 
 
